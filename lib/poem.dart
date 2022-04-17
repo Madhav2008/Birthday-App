@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Poem extends StatelessWidget {
@@ -57,7 +56,11 @@ class Poem extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.only(
-                    left: 16.0, right: 16, top: 36, bottom: 36,),
+                  left: 16.0,
+                  right: 16,
+                  top: 36,
+                  bottom: 36,
+                ),
                 child: Card(
                   elevation: 10,
                   shadowColor: Colors.blueAccent,
